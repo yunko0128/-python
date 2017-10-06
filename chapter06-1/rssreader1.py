@@ -1,7 +1,7 @@
 #coding:utf-8
 #!/usr/bin/env python
 
-from rssparser import parse_rss
+from rssparser import parse_rss #ImportError: No module named rssparser
 from httphandler import Request, Response, get_htmltemplate
 import cgitb; cgitb.enable()
 
